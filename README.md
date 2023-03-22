@@ -11,5 +11,5 @@ In your `analysis_options.yaml`, add
 ```yaml
 analyzer:
   plugins:
-    - decorated_lint
+    - decorated_lints
 ```
