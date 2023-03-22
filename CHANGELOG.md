@@ -1,3 +1,2 @@
 ## 0.0.1
-
-* TODO: Describe initial release.
+- 增加`runDecoratedApp`的检测
