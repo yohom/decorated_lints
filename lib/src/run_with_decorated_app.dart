@@ -15,8 +15,6 @@ class RunDecoratedFlutter extends DartLintRule {
     ErrorReporter reporter,
     CustomLintContext context,
   ) {
-    if (!resolver.path.endsWith('main.dart')) return;
-
     context.registry.addMethodInvocation((node) {
       if (node.methodName.name == 'runApp') {
         reporter.reportErrorForNode(code, node);
