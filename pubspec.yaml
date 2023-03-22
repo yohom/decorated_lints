@@ -1,6 +1,7 @@
 name: decorated_lints
 description: A new Flutter package project.
 version: 0.0.1
+repository: https://github.com/yohom/decorated_lints
 
 environment:
   sdk: ">=2.19.4 <3.0.0"
